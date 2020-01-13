@@ -1,0 +1,95 @@
+
+.main .container h1{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.main .container .masNoticias img{
+    width: 100%;
+    padding: 20px;
+}
+.main .container .masNoticias p{
+    padding: 0px 50px;
+}
+.main .container .masNoticias form{
+    padding: 20px;
+}
+.main .container .masNoticias form .btnComentario{
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    outline: 0;
+    box-shadow: inset 0 -.2em 0px rgba(0,0,0,.2);
+    color: white;
+    font-weight: bold;
+    background: #C21812;
+}
+.main .container .masNoticias form textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(144, 144, 144, 0.3);
+    outline: 0;
+    padding: 20px;
+}
+.main .container .masNoticias form .nombreComentario{
+    border-radius: 5px;
+    border: 1px solid rgba(144, 144, 144, 0.3);
+    outline: 0;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.main .container .masNoticias .containerComentarios{
+    
+}
+.main .container .masNoticias .containerComentarios .comentario{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin-bottom: 20px;
+}
+.main .container .masNoticias .containerComentarios .comentario figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.main .container .masNoticias .containerComentarios .comentario figure img{
+    padding-top: 0;
+    width: 80%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+}
+.main .container .masNoticias .containerComentarios .comentario .textoComentario h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+.main .container .masNoticias .containerComentarios .comentario .textoComentario p{
+    padding: 10px 0;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main .container .masNoticias .containerRedesSociales{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.main .container .masNoticias a{
+    color: white;
+    padding: 10px;
+
+}
+.main .container .masNoticias .twitter{
+    background: #00acee;
+}
+.main .container .masNoticias .facebook{
+    background:  #3b5998;
+}
+.main .container .masNoticias .linkedin{
+    background: #0e76a8;
+}
+.main .container .masNoticias .instagram{
+    background: #3f729b;
+}
